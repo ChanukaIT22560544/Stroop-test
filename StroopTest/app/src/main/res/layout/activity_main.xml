@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Score: 0"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: 60"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/wordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WORD"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/redButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RED"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#D11818"/>
+
+        <Button
+            android:id="@+id/blueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLUE"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:layout_marginStart="8dp"/>
+
+        <Button
+            android:id="@+id/greenButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GREEN"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:layout_marginStart="8dp"/>
+
+        <Button
+            android:id="@+id/yellowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YELLOW"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/magentaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAGENTA"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_purple"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/brownButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BROWN"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#512A1E"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/blackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLACK"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/black"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/whiteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WHITE"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@android:color/white"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/grayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GRAY"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/darker_gray"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"/>
+
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="248dp"
+        android:layout_height="270dp"
+        app:srcCompat="@drawable/human_brain" />
+
+</LinearLayout>

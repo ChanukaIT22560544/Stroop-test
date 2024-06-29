@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Stroop Test</string>
+    <string name="red">RED</string>
+    <string name="score_0">Score: 0</string>
+    <string name="color">COLOR</string>
+    <string name="blue">BLUE</string>
+    <string name="green">GREEN</string>
+    <string name="yellow">YELLOW</string>
+    <string name="magenta">MAGENTA</string>
+    <string name="brown">BROWN</string>
+    <string name="black">BLACK</string>
+    <string name="white">WHITE</string>
+    <string name="gray">GRAY</string>
+    <string name="stroop_test">STROOP TEST</string>
+    <string name="stroop_test1">STROOP TEST</string>
+    <string name="start_game">start Game</string>
+    <string name="high_score_0_nname_no_name">High Score: 0\nName: No name</string>
+</resources>
